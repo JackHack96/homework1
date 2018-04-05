@@ -1,0 +1,5 @@
+<launch>
+    <node name="talker" pkg="homework1" type="talker" output="screen" launch-prefix="gnome-terminal --command"/>
+    <node name="listener" pkg="homework1" type="listener" output="screen" launch-prefix="gnome-terminal --command"/>
+    <node name="selector" pkg="homework1" type="selector" output="screen" launch-prefix="gnome-terminal --command"/>
+</launch>
