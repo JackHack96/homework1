@@ -20,9 +20,10 @@ int main(int argc, char **argv)
   char r;
   while (std::cin >> r)
   {
-    message.display=r;
-    chatter_pub.publish(message);
     ros::spinOnce();
+    message.display=r;
+    ROS_INFO("Sending message (%s - %d - %s)",message.name.c_str(),message.age,message.course.c_str());
+    chatter_pub.publish(message);
   }
   return 0;
 }
