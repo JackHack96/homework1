@@ -46,6 +46,10 @@ I made a ROS launcher that you can use to automatically launch the three nodes.
 
 This command will spawn three terminals, one for `roscore`, one for the `selector` and one for the `listener` (the `talker` is not shown in his own terminal).
 
+## Screenshots
+![ROSLAUNCH](/images/roslaunch.png)
+![RQT_GRAPH](/images/rosgraph.png)
+
 ---
 This file is part of `homework1` and it is distributed under the terms of the GNU General Public License 3
 
