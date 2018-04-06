@@ -34,6 +34,18 @@ The _talker_ publishes the same message every second under the topic `chatter`. 
 from the keyboard a key. Then it stores the key value in the received message and send it to the _listener_, who proceeds to show the message's fields according to the value
 of `display`.
 
+## How to compile
+Simply clone the repository into your ROS workspace, then run `catkin_make`.  
+Assuming that your workspace is in `~/catkin_ws`:
+> `git clone https://github.com/JackHack96/homework1.git`  
+> `cd ~/catkin_ws && catkin_make`
+
+## How to launch
+I made a ROS launcher that you can use to automatically launch the three nodes.
+> `roslaunch homework1 homework1.launch`
+
+This command will spawn three terminals, one for `roscore`, one for the `selector` and one for the `listener` (the `talker` is not shown in his own terminal).
+
 ---
 This file is part of `homework1` and it is distributed under the terms of the GNU General Public License 3
 

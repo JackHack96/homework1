@@ -7,7 +7,7 @@ homework1::student message;
 void chatterCallback(const homework1::student::ConstPtr &msg)
 {
   message = *msg;
-  ROS_INFO("Received message (%s - %d - %s)",message.name.c_str(),message.age,message.course.c_str());
+  //ROS_INFO("Received message (%s - %d - %s)",message.name.c_str(),message.age,message.course.c_str());
 }
 
 int main(int argc, char **argv)
@@ -22,7 +22,7 @@ int main(int argc, char **argv)
   {
     ros::spinOnce();
     message.display=r;
-    ROS_INFO("Sending message (%s - %d - %s)",message.name.c_str(),message.age,message.course.c_str());
+    //ROS_INFO("Sending message (%s - %d - %s)",message.name.c_str(),message.age,message.course.c_str());
     chatter_pub.publish(message);
   }
   return 0;
