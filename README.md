@@ -33,6 +33,7 @@ While the first three fields are self-explaining, the fourth is used by the list
 The _talker_ publishes the same message every second under the topic `chatter`. The _selector_ node, which is subscribed to the `chatter` topic, receives the message and reads
 from the keyboard a key. Then it stores the key value in the received message and send it to the _listener_, who proceeds to show the message's fields according to the value
 of `display`.
+
 *I know I could use a more efficient design*, but I've chosen this design because it's simple and it just works, and it was also easy to write.
 
 ## How to compile
