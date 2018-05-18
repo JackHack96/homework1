@@ -39,12 +39,12 @@ of `display`.
 ## How to compile
 Simply clone the repository into your ROS workspace, then run `catkin_make`.  
 Assuming that your workspace is in `~/catkin_ws`:
-> `git clone https://github.com/JackHack96/homework1.git`  
+> `git clone https://github.com/JackHack96/ros_homework1.git`  
 > `cd ~/catkin_ws && catkin_make`
 
 ## How to launch
 I made a ROS launcher that you can use to automatically launch the three nodes.
-> `roslaunch homework1 homework1.launch`
+> `roslaunch ros_homework1 ros_homework1.launch`
 
 This command will spawn three terminals, one for `roscore`, one for the `selector` and one for the `listener` (the `talker` is not shown in his own terminal).
 
@@ -53,8 +53,8 @@ This command will spawn three terminals, one for `roscore`, one for the `selecto
 ![RQT_GRAPH](/images/rosgraph.png)
 
 ---
-This file is part of `homework1` and it is distributed under the terms of the GNU General Public License 3
+This file is part of `ros_homework1` and it is distributed under the terms of the GNU General Public License 3
 
-`homework1` is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 3 for more details.
+`ros_homework1` is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 3 for more details.
 
-You should have received a copy of the GNU General Public License along with `homework1`. If not, see http://www.gnu.org/licenses/.
+You should have received a copy of the GNU General Public License along with `ros_homework1`. If not, see http://www.gnu.org/licenses/.
