@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>homework1</name>
+  <name>ros_homework1</name>
   <version>0.0.0</version>
-  <description>The homework1 package</description>
+  <description>The ros_homework1 package</description>
   <maintainer email="matteoiervasi@gmail.com">Matteo Iervasi</maintainer>
   <license>GPLv3</license>
-  <url type="repository">https://github.com/JackHack96/homework1</url>
-  <url type="bugtracker">https://github.com/JackHack96/homework1/issues</url>
+  <url type="repository">https://github.com/JackHack96/ros_homework1</url>
+  <url type="bugtracker">https://github.com/JackHack96/ros_homework1/issues</url>
   <author email="matteoiervasi@gmail.com">Matteo Iervasi</author>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>

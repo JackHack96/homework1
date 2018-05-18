@@ -1,7 +1,7 @@
 #include "ros/ros.h"
-#include "homework1/student.h"
+#include "ros_homework1/student.h"
 
-void chatterCallback(const homework1::student::ConstPtr& msg)
+void chatterCallback(const ros_homework1::student::ConstPtr& msg)
 {
   switch(msg->display){
     case 'n':

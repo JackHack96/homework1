@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 set (CMAKE_CXX_STANDARD 11)
-project(homework1)
+project(ros_homework1)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -140,15 +140,15 @@ include_directories(
 
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
-add_dependencies(talker homework1_generate_messages_cpp)
+add_dependencies(talker ros_homework1_generate_messages_cpp)
 
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
-add_dependencies(listener homework1_generate_messages_cpp)
+add_dependencies(listener roshomework1_generate_messages_cpp)
 
 add_executable(selector src/selector.cpp)
 target_link_libraries(selector ${catkin_LIBRARIES})
-add_dependencies(selector homework1_generate_messages_cpp)
+add_dependencies(selector ros_homework1_generate_messages_cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

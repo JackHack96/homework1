@@ -1,5 +1,5 @@
 #include "ros/ros.h"
-#include "homework1/student.h"
+#include "ros_homework1/student.h"
 #include <sstream>
 
 int main(int argc, char **argv)
@@ -7,9 +7,9 @@ int main(int argc, char **argv)
   ROS_INFO("Started talker");
   ros::init(argc, argv, "talker");
   ros::NodeHandle n;
-  ros::Publisher chatter_pub = n.advertise<homework1::student>("chatter", 1);
+  ros::Publisher chatter_pub = n.advertise<ros_homework1::student>("chatter", 1);
   ros::Rate loop_rate(1);
-  homework1::student msg;
+  ros_homework1::student msg;
   while (ros::ok())
   {
     msg.name = "Matteo Iervasi";
