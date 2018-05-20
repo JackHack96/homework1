@@ -39,7 +39,7 @@ of `display`.
 ## How to compile
 Simply clone the repository into your ROS workspace, then run `catkin_make`.  
 Assuming that your workspace is in `~/catkin_ws`:
-> `git clone https://github.com/JackHack96/ros_homework1.git`  
+> `git clone https://github.com/JackHack96/ros_homework1.git ~/catkin_ws/src`  
 > `cd ~/catkin_ws && catkin_make`
 
 ## How to launch
